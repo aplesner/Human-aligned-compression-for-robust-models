@@ -1,4 +1,4 @@
-Source code for the paper [https://arxiv.org/abs/2504.12255](Human Aligned Compression for Robust Models) presented at the Workshop AdvML at CVPR 2025 
+Source code for the paper Human Aligned Compression for Robust Models (https://arxiv.org/abs/2504.12255) presented at the Workshop AdvML at CVPR 2025 
 
 
 
