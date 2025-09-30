@@ -1,0 +1,21 @@
+{
+      "use_config": false,
+      "config": "configs/imagenette_iFGSM_ELIC_seq_through2025-02-14-17-31-59.json",
+      "save_config": true,
+      "model_attack": "ResNet50",
+      "batch_size": 1,
+      "dataset": "imagenette",
+      "attack": "iFGSM",
+      "norm": "l_inf",
+      "epsilons": [
+            "4/255",
+            "8/255",
+            "12/255"
+      ],
+      "defense": "ELIC_seq",
+      "defense_param": "1:25.0",
+      "non_diff": false,
+      "attack_through": true,
+      "output": "results/ELIC_seq/1_",
+      "get_baseline": true
+}

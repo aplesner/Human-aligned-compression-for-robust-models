@@ -1,0 +1,19 @@
+{
+      "use_config": false,
+      "config": "configs/imagenette_FGSM_H2652025-01-23-09-31-14.json",
+      "save_config": true,
+      "model_attack": "Vit",
+      "batch_size": 16,
+      "dataset": "imagenette",
+      "attack": "FGSM",
+      "norm": "l_inf",
+      "epsilons": [
+            "8/255"
+      ],
+      "defense": "H265",
+      "defense_param": "25.0",
+      "non_diff": false,
+      "attack_through": false,
+      "output": "results/exp1/Vit_",
+      "get_baseline": true
+}

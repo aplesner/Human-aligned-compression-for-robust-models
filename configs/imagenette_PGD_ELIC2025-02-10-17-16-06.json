@@ -1,0 +1,21 @@
+{
+      "use_config": false,
+      "config": "configs/imagenette_PGD_ELIC2025-02-10-17-16-06.json",
+      "save_config": true,
+      "model_attack": "Vit",
+      "batch_size": 16,
+      "dataset": "imagenette",
+      "attack": "PGD",
+      "norm": "l_inf",
+      "epsilons": [
+            "2/255",
+            "4/255",
+            "8/255"
+      ],
+      "defense": "ELIC",
+      "defense_param": "25.0",
+      "non_diff": false,
+      "attack_through": false,
+      "output": "results/exp_p/Vit_ELIC_",
+      "get_baseline": true
+}

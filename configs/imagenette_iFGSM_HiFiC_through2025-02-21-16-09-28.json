@@ -1,0 +1,22 @@
+{
+      "use_config": false,
+      "config": "configs/imagenette_iFGSM_HiFiC_through2025-02-21-16-09-28.json",
+      "save_config": true,
+      "model_attack": "Vit",
+      "batch_size": 16,
+      "dataset": "imagenette",
+      "attack": "iFGSM",
+      "norm": "l_inf",
+      "epsilons": [
+            "2/255",
+            "4/255",
+            "8/255",
+            "12/255"
+      ],
+      "defense": "HiFiC",
+      "defense_param": "hific_med.pt",
+      "non_diff": false,
+      "attack_through": true,
+      "output": "results/hific_abl/Vit_hific_med_",
+      "get_baseline": true
+}

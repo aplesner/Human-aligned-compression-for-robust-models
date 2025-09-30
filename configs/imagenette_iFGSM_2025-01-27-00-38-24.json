@@ -1,0 +1,21 @@
+{
+      "use_config": false,
+      "config": "configs/imagenette_iFGSM_2025-01-27-00-38-24.json",
+      "save_config": true,
+      "model_attack": "Vit",
+      "batch_size": 16,
+      "dataset": "imagenette",
+      "attack": "iFGSM",
+      "norm": "l_inf",
+      "epsilons": [
+            "2/255",
+            "4/255",
+            "8/255"
+      ],
+      "defense": null,
+      "defense_param": "25.0",
+      "non_diff": false,
+      "attack_through": false,
+      "output": "results/exp2/Vit_",
+      "get_baseline": true
+}

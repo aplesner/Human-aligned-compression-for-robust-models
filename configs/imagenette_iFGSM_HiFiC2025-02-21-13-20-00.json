@@ -1,0 +1,22 @@
+{
+      "use_config": false,
+      "config": "configs/imagenette_iFGSM_HiFiC2025-02-21-13-20-00.json",
+      "save_config": true,
+      "model_attack": "ResNet50",
+      "batch_size": 16,
+      "dataset": "imagenette",
+      "attack": "iFGSM",
+      "norm": "l_inf",
+      "epsilons": [
+            "2/255",
+            "4/255",
+            "8/255",
+            "12/255"
+      ],
+      "defense": "HiFiC",
+      "defense_param": "hific_low.pt",
+      "non_diff": false,
+      "attack_through": false,
+      "output": "results/hific_abl/ResNet50_hific_low_",
+      "get_baseline": true
+}

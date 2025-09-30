@@ -1,0 +1,21 @@
+{
+      "use_config": false,
+      "config": "configs/imagenette_PGD_sequence_through2025-02-12-17-00-34.json",
+      "save_config": true,
+      "model_attack": "ResNet50",
+      "batch_size": 16,
+      "dataset": "imagenette",
+      "attack": "PGD",
+      "norm": "l_inf",
+      "epsilons": [
+            "8/255",
+            "12/255",
+            "16/255"
+      ],
+      "defense": "sequence",
+      "defense_param": "jpeg:25.0,jpeg:25.0,jpeg:25.0,jpeg:25.0,jpeg:25.0",
+      "non_diff": false,
+      "attack_through": true,
+      "output": "results/seq",
+      "get_baseline": true
+}

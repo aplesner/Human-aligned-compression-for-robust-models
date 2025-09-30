@@ -1,0 +1,21 @@
+{
+      "use_config": false,
+      "config": "configs/imagenet_PGD_ELIC2025-02-19-09-20-02.json",
+      "save_config": true,
+      "model_attack": "ResNet50",
+      "batch_size": 16,
+      "dataset": "imagenet",
+      "attack": "PGD",
+      "norm": "l_inf",
+      "epsilons": [
+            "4/255",
+            "8/255",
+            "12/255"
+      ],
+      "defense": "ELIC",
+      "defense_param": "25.0",
+      "non_diff": false,
+      "attack_through": false,
+      "output": "results/imgnet/ResNet50_ELIC_",
+      "get_baseline": true
+}

@@ -1,0 +1,21 @@
+{
+      "use_config": false,
+      "config": "configs/imagenet_1000_iFGSM_jpeg_seq_through2025-02-25-19-31-51.json",
+      "save_config": true,
+      "model_attack": "ResNet50",
+      "batch_size": 16,
+      "dataset": "imagenet_1000",
+      "attack": "iFGSM",
+      "norm": "l_inf",
+      "epsilons": [
+            "4/255",
+            "8/255",
+            "12/255"
+      ],
+      "defense": "jpeg_seq",
+      "defense_param": "42:95.0",
+      "non_diff": false,
+      "attack_through": true,
+      "output": "results/jpeg_seq/ResNet_elic_95.0_42_",
+      "get_baseline": true
+}

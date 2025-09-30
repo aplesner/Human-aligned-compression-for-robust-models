@@ -1,0 +1,26 @@
+{
+      "use_config": false,
+      "config": "configs/imagenette_CW_HiFiC_through2025-02-11-10-51-03.json",
+      "save_config": true,
+      "model_attack": "ResNet50",
+      "batch_size": 16,
+      "dataset": "imagenette",
+      "attack": "CW",
+      "norm": "l_inf",
+      "epsilons": [
+            "2/255",
+            "4/255",
+            "5/255",
+            "6/255",
+            "7/255",
+            "8/255",
+            "16/255",
+            "32/255"
+      ],
+      "defense": "HiFiC",
+      "defense_param": "25.0",
+      "non_diff": false,
+      "attack_through": true,
+      "output": "results/expdf/ResNet50_HiFiC_T_",
+      "get_baseline": true
+}

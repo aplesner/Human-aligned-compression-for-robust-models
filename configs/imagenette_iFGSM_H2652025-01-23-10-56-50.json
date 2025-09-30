@@ -1,0 +1,19 @@
+{
+      "use_config": false,
+      "config": "configs/imagenette_iFGSM_H2652025-01-23-10-56-50.json",
+      "save_config": true,
+      "model_attack": "ResNet50",
+      "batch_size": 16,
+      "dataset": "imagenette",
+      "attack": "iFGSM",
+      "norm": "l_inf",
+      "epsilons": [
+            "8/255"
+      ],
+      "defense": "H265",
+      "defense_param": "25.0",
+      "non_diff": false,
+      "attack_through": false,
+      "output": "results/exp1/ResNet50_",
+      "get_baseline": true
+}

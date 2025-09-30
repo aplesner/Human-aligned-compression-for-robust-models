@@ -1,0 +1,24 @@
+{
+      "use_config": false,
+      "config": "configs/imagenette_FGSM_2025-01-13-15-42-11.json",
+      "save_config": true,
+      "model_attack": "ResNet50",
+      "batch_size": 64,
+      "dataset": "imagenette",
+      "attack": "FGSM",
+      "norm": "l_inf",
+      "epsilons": [
+            "1/255",
+            "2/255",
+            "4/255",
+            "8/255",
+            "10/255",
+            "12/255"
+      ],
+      "defense": null,
+      "defense_param": "25.0",
+      "non_diff": false,
+      "attack_through": false,
+      "output": "results/new_",
+      "get_baseline": false
+}
