@@ -1,12 +1,12 @@
 Source code for the paper Human Aligned Compression for Robust Models (https://arxiv.org/abs/2504.12255) presented at the Workshop AdvML at CVPR 2025.
 ```
-   @InProceedings{Räber2025human,
-    author=	{Samuel Räber and Andreas Plesner and Till Aczel and Roger Wattenhofer},
-	  title=	{{Human Aligned Compression for Robust Models}},
-	  booktitle=	{{The 5th Workshop of Adversarial Machine Learning on Computer Vision: Foundation Models + X  (AdvML@CVPR 2025), Nashville, Tennessee, USA}},
-	  month=	{June},
-	  year=	{2025},
-  }
+@InProceedings{raeber2025human,
+	author=	{Samuel Räber and Andreas Plesner and Till Aczel and Roger Wattenhofer},
+	title=	{{Human Aligned Compression for Robust Models}},
+	booktitle=	{{The 5th Workshop of Adversarial Machine Learning on Computer Vision: Foundation Models + X  (AdvML@CVPR 2025), Nashville, Tennessee, USA}},
+	month=	{June},
+	year=	{2025},
+}
 ```
 
 
